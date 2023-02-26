@@ -20,7 +20,8 @@ class TodoItem extends StatelessWidget {
           final updatedTodo = Todo(
             id: todo.id,
             title: todo.title,
-            isCompleted: value ?? false,
+            isCompleted: value ?? false, 
+            userId:todo.userId,
           );
           Provider.of<TodoProvider>(context, listen: false)
               .updateTodo(updatedTodo);

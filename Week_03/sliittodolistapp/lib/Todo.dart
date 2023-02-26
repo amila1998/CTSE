@@ -4,11 +4,13 @@ class Todo {
   final String id;
   final String title;
   final bool isCompleted;
+  final String userId;
 
   Todo({
     required this.id,
     required this.title,
     required this.isCompleted,
+    required this.userId,
   });
 
   // Factory method to create a Todo object from a DocumentSnapshot
@@ -17,6 +19,7 @@ class Todo {
       id: snapshot.id,
       title: snapshot['title'],
       isCompleted: snapshot['isCompleted'],
+      userId: snapshot['userId'],
     );
   }
 
@@ -33,11 +36,13 @@ class Todo {
     String? id,
     String? title,
     bool? completed,
+    String? userId,
   }) {
     return Todo(
       id: id ?? this.id,
       title: title ?? this.title,
       isCompleted: completed ?? isCompleted,
+      userId: userId ?? this.userId,
     );
   }
 }

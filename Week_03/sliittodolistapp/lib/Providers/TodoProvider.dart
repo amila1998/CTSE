@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:sliittodolistapp/Todo.dart';
 
@@ -21,7 +22,10 @@ class TodoProvider extends ChangeNotifier {
 // private method to load todos from the database
   Future<void> _loadTodos() async {
     try {
-      final snapshot = await _todosCollectionRef.get();
+      final user = FirebaseAuth.instance.currentUser;
+      final snapshot = await _todosCollectionRef
+          .where('userId', isEqualTo: user!.uid)
+          .get();
       _todos =
           snapshot.docs.map((doc) => Todo.fromDocumentSnapshot(doc)).toList();
       notifyListeners();
@@ -33,9 +37,11 @@ class TodoProvider extends ChangeNotifier {
 // method to add a new todo to the database and _todos list
   Future<void> addTodo(String title) async {
     try {
+      final user = FirebaseAuth.instance.currentUser;
       final docRef =
-          await _todosCollectionRef.add({'title': title, 'isCompleted': false});
+          await _todosCollectionRef.add({'title': title, 'isCompleted': false, 'userId':user!.uid});
       final todo = Todo(
+        userId: user.uid,
         id: docRef.id,
         title: title,
         isCompleted: false,
