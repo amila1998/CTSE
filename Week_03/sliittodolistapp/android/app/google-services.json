@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587242579236",
+    "project_id": "sliittodolistapp",
+    "storage_bucket": "sliittodolistapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587242579236:android:ddf82e57ef220f14b53fb1",
+        "android_client_info": {
+          "package_name": "com.example.sliittodolistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587242579236-51etp14p71u2nkc79pb01nkqg40ggd2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBznx0FUbuS5OulX3iJ1wUQMdanTQdg75M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587242579236-51etp14p71u2nkc79pb01nkqg40ggd2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
