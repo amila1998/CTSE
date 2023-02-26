@@ -9,15 +9,15 @@
    
  <br/>
 <h6 align="center">To do App</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_03/sliittodolistapp/assets/ss/Todo app.png" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_03/sliittodolistapp/assets/ss/Todo app.png" alt="preview">
 
  <h6 align="center">Add a task</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_03/sliittodolistapp/assets/ss/Add.png" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_03/sliittodolistapp/assets/ss/Add.png" alt="preview">
 
 
 <h6 align="center">Connected to the firebase</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_03/sliittodolistapp/assets/ss/connect with firbase.png" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_03/sliittodolistapp/assets/ss/connect with firbase.png" alt="preview">
 
  <h6 align="center">Database</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_03/sliittodolistapp/assets/ss/database.png" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_03/sliittodolistapp/assets/ss/database.png" alt="preview">
 
