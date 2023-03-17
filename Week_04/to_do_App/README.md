@@ -8,10 +8,10 @@
    
  <br/>
 <h6 align="center">To do App page</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_04/to_do_App/assets/ss/todopage.PNG" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_04/to_do_App/assets/ss/todopage.PNG" alt="preview">
 
  <h6 align="center">Login Page</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_04/to_do_App/assets/ss/login.PNG" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_04/to_do_App/assets/ss/login.PNG" alt="preview">
 
  <h6 align="center">Database</h6>
- <img src="https://github.com/SLIIT-FacultyOfComputing/lab-protfolio-amila1998/blob/main/Week_04/to_do_App/assets/ss/db.PNG" alt="preview">
+ <img src="https://github.com/amila1998/CTSE/blob/main/Week_04/to_do_App/assets/ss/db.PNG" alt="preview">
